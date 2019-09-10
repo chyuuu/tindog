@@ -1,28 +1,31 @@
 h1 {
-font-family: "Montserrat-light";
-font-size: 3.75rem;
-line-height: 1.5;
-color: white;
-padding-bottom: 30px;
+  font-family: "Montserrat-light";
+  font-size: 3.75rem;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 30px;
 }
 
 h3 {
-font-family: "Montserrat";
+  font-family: "Montserrat";
   font-weight: bold;
   font-size: 1.5rem;
-    margin: 5% 1%;
+  margin: 3% 1%;
 }
 
 p {
   font-family: "Montserrat";
   font-weight: lighter;
   color: #8f8f8f;
- }
+}
 
-.featuresicons{
+.featuresicons {
   color: #ef8172;
 }
 
+.featuresicons:hover {
+  color: #ff4c68;
+}
 
 .navbar-brand {
   font-family: "Ubuntu";
@@ -32,7 +35,7 @@ p {
 
 .col-lg-4 {
   text-align: center;
-  padding: 5% 7%;
+  padding: 3% 7%;
 }
 
 .navbar {
@@ -58,7 +61,6 @@ p {
   transform: rotate(25deg);
   margin-left: 50px;
   width: 60%;
-
 }
 
 #title {
