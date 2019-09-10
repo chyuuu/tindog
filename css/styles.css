@@ -38,6 +38,10 @@ p {
   padding: 3% 7%;
 }
 
+.downloadbtn {
+  font-family: "Montserrat";
+}
+
 .navbar {
   padding: 0 0 4.5rem;
 }
