@@ -10,7 +10,7 @@ h3 {
 font-family: "Montserrat";
   font-weight: bold;
   font-size: 1.5rem;
-    margin: 5% 10%;
+    margin: 5% 1%;
 }
 
 p {
@@ -21,7 +21,6 @@ p {
 
 .featuresicons{
   color: #ef8172;
-  size: 5x;
 }
 
 
@@ -33,7 +32,7 @@ p {
 
 .col-lg-4 {
   text-align: center;
-  padding: 5% 10%;
+  padding: 5% 7%;
 }
 
 .navbar {
