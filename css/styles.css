@@ -1,3 +1,49 @@
+/* title section */
+
+#title {
+  background-color: #ff4c68;
+}
+
+.btn-dark {
+  margin-right: 20px;
+}
+
+.containter-fluid {
+  padding: 3% 15%;
+}
+
+.downloadbtn {
+  font-family: "Montserrat";
+}
+
+.tindogpic {
+  transform: rotate(25deg);
+  margin-left: 50px;
+  width: 60%;
+}
+
+
+/* navbar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+/* features section */
+
 h1 {
   font-family: "Montserrat-light";
   font-size: 3.75rem;
@@ -27,46 +73,7 @@ p {
   color: #ff4c68;
 }
 
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
 .col-md-4 {
   text-align: center;
   padding: 3% 7%;
-}
-
-.downloadbtn {
-  font-family: "Montserrat";
-}
-
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-  font-family: "Montserrat-light";
-  font-size: 1.2rem;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-}
-
-.containter-fluid {
-  padding: 3% 15%;
-}
-
-.btn-dark {
-  margin-right: 20px;
-}
-
-.tindogpic {
-  transform: rotate(25deg);
-  margin-left: 50px;
-  width: 60%;
-}
-
-#title {
-  background-color: #ff4c68;
 }
