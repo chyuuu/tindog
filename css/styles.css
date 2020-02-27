@@ -1,69 +1,12 @@
 /* title section */
-.title {
-  background-color: #ff4c68;
-}
-
 @media (max-width: 1028px) {
   .title {
     text-align: center;
   }
 }
 
-.btn-dark {
-  margin-right: 20px;
-}
-
-.containter-fluid {
-  padding: 3% 15% 7%;
-  /* was padding: 5% 15%; but wanted to change
-  bottom padding so changed to above which is
-  padding: [top]% [left and right]% [bottom]%*/
-}
-
-.downloadbtn {
-  font-family: "Montserrat";
-}
-
-/* @media (max-width: 1028px) {
-  .tindogpic {
-    position: static;
-  }
-}
-CANNOT PUT THIS HERE OR IT WILL NOT FLOW RIGHT
-HAVE TO PUT AT BOTTOM*/
-.tindogpic {
-  transform: rotate(25deg);
-  width: 60%;
-  position: absolute;
-  right: 30%;
-}
-
-/* navbar */
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-  font-family: "Ubuntu";
-  font-size: 1.2rem;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-}
-
-/* features section */
-#features {
-  background-color: white;
-  position: relative;
-  /* z-index: 1; */
-  /* this actually isnt necessary bc the order of the elements
-  already makes the stacking order work, but ill keep it for
-  future reference */
+.title {
+  background-color: #ff4c68;
 }
 
 h1 {
@@ -93,6 +36,65 @@ p {
   font-weight: lighter;
   color: #8f8f8f;
 }
+
+
+.downloadbtn {
+  font-family: "Montserrat";
+}
+
+.btn-dark {
+  margin-right: 20px;
+}
+
+.containter-fluid {
+  padding: 3% 15% 7%;
+  /* was padding: 5% 15%; but wanted to change
+  bottom padding so changed to above which is
+  padding: [top]% [left and right]% [bottom]%*/
+}
+
+/* @media (max-width: 1028px) {
+  .tindogpic {
+    position: static;
+  }
+}
+CANNOT PUT THIS HERE OR IT WILL NOT FLOW RIGHT
+HAVE TO PUT AT BOTTOM*/
+.tindogpic {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+/* features section */
+#features {
+  background-color: white;
+  position: relative;
+  /* z-index: 1; */
+  /* this actually isnt necessary bc the order of the elements
+  already makes the stacking order work, but ill keep it for
+  future reference */
+}
+
 
 .featuresicons {
   color: #ef8172;
@@ -145,10 +147,6 @@ p {
   width: 15%;
 }
 
-.footer-icon {
-  padding: 1% 1% 2%;
-}
-
 /* pricing section */
 .pricing {
   padding: 100px;
@@ -164,13 +162,7 @@ p {
   font-size: 20px;
 }
 
-@media (max-width: 1028px) {
-  .tindogpic {
-    position: static;
-    transform: rotate(0);
-    margin-top: 50px;
-  }
-}
+/* call to action section */
 
 #cta {
   text-align: center;
@@ -183,7 +175,21 @@ p {
   font-size: 50px;
 }
 
+/* footer section */
+
 #footer {
   text-align: center;
   padding: 10%;
+}
+
+.footer-icon {
+  padding: 1% 1% 2%;
+}
+
+@media (max-width: 1028px) {
+  .tindogpic {
+    position: static;
+    transform: rotate(0);
+    margin-top: 50px;
+  }
 }
