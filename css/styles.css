@@ -3,22 +3,39 @@
   background-color: #ff4c68;
 }
 
+@media (max-width: 1028px) {
+  .title {
+    text-align: center;
+  }
+}
+
 .btn-dark {
   margin-right: 20px;
 }
 
 .containter-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
+  /* was padding: 5% 15%; but wanted to change
+  bottom padding so changed to above which is
+  padding: [top]% [left and right]% [bottom]%*/
 }
 
 .downloadbtn {
   font-family: "Montserrat";
 }
 
+/* @media (max-width: 1028px) {
+  .tindogpic {
+    position: static;
+  }
+}
+CANNOT PUT THIS HERE OR IT WILL NOT FLOW RIGHT
+HAVE TO PUT AT BOTTOM*/
 .tindogpic {
   transform: rotate(25deg);
-  margin-left: 50px;
   width: 60%;
+  position: absolute;
+  right: 30%;
 }
 
 /* navbar */
@@ -40,6 +57,15 @@
 }
 
 /* features section */
+#features {
+  background-color: white;
+  position: relative;
+  /* z-index: 1; */
+  /* this actually isnt necessary bc the order of the elements
+  already makes the stacking order work, but ill keep it for
+  future reference */
+}
+
 h1 {
   font-family: "Montserrat-light";
   font-size: 3.75rem;
@@ -95,7 +121,6 @@ p {
 }
 
 /* carousel control + items */
-
 .carousel-item {
   padding: 7% 15%;
 }
@@ -121,7 +146,6 @@ p {
 }
 
 /* pricing section */
-
 .pricing {
   padding: 100px;
   text-align: center;
@@ -129,4 +153,12 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .tindogpic {
+    position: static;
+    transform: rotate(0);
+    margin-top: 50px;
+  }
 }
