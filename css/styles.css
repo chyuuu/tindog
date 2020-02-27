@@ -145,6 +145,10 @@ p {
   width: 15%;
 }
 
+.footer-icon {
+  padding: 1% 1% 2%;
+}
+
 /* pricing section */
 .pricing {
   padding: 100px;
@@ -155,10 +159,31 @@ p {
   padding: 3% 2%;
 }
 
+.card-header {
+  color: black;
+  font-size: 20px;
+}
+
 @media (max-width: 1028px) {
   .tindogpic {
     position: static;
     transform: rotate(0);
     margin-top: 50px;
   }
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10% 15%;
+}
+
+.cta-header {
+  color: white;
+  font-size: 50px;
+}
+
+#footer {
+  text-align: center;
+  padding: 10%;
 }
